@@ -10,7 +10,7 @@ const Navbar = () => {
         <Link to={"/"}>About</Link>
         <Link to={"/"}>Career</Link>
       </div>
-      <div className="flex gap-3 justify-center items-center">
+      <div className="flex gap-3 justify-end items-center">
         <img src={userIcon} alt="" />
         <Link to={"/auth"} className="btn btn-active btn-neutral">
           Login
