@@ -11,7 +11,7 @@ const HomeLayout = () => {
       <Header></Header>
       <LatestNews></LatestNews>
       <Navbar></Navbar>
-      <main className="w-[85%] mx-auto mt-6 grid grid-cols-12">
+      <main className="w-[85%] mx-auto mt-6 grid grid-cols-12 gap-6">
         <aside className="left col-span-3"><LeftNav></LeftNav></aside>
         <section className="left col-span-6"> <Outlet></Outlet> </section>
         <aside className="left col-span-3"><RightNav></RightNav></aside>
